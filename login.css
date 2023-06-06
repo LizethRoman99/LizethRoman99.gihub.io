@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body{
+        background-image: url(/Imagenes/backgroundDannySpa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+}
+header {
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    }
+
+    nav{
+    height: 90px;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align:start;
+    color: rgb(0, 0, 0);
+    display: flex;
+    }
+
+  header  nav ul li a {
+        text-align:start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 50px 50px 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: black;
+    }
+ .menu nav{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+.menu nav ul{
+        list-style:none;
+        display: flex;
+        justify-content:center;
+}
+.menu nav ul li{
+     position: relative;
+}
+    a{
+    padding: 15px 80px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+
+
+    }
+
+
+nav a{
+        color: black;
+        text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+nav img{
+    width: 100px;
+}
+
+
+form{
+    padding: 50px 55px;
+    box-shadow:0 0 20px rgb(0, 0, 0.2);
+    border-radius: 20px; 
+    text-align:center;
+    width:340px;
+       
+}
+
+
+h1{
+    color: rgb(173, 43, 43);
+    font-size: 35px;
+}
+
+input {
+    padding: 17px 25px;
+    border-radius:25px;
+    margin-bottom: 20px;
+    background-color: darksalmon;
+    border: 2px solid darksalmon ;
+    color: black;
+    outline: none;
+}
+input::placeholder{
+    color:rgb(173, 43, 43) ;
+}
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content:space-between;
+    text-align:center;
+}
+.form-txt a{
+    color:rgb(173, 43, 43);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+input{
+    padding:15px;
+}
+
+.Registrate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    float: left;
+    padding-left: 40px;
+    border: 30px;
+    border-left: 30px;
+}
+
+.Registrate form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 350px;
+    padding: 20px;
+    background:#f3f3f349;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.IniciarSesion{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+
+}
+
+.IniciarSesion form{
+    width:350px;
+    padding: 20px;
+    background:#f3f3f349;
+    border-radius: 8px;
+}
+
+@media(max-width:300px) {
+    
+    body{
+        padding:30px;
+    }
+
+    form{
+        padding: 50px 30px;
+        width:500%
+     }
+     .Registrate{
+        display: flex;
+        justify-content: center;
+        width: 200%;
+        align-items: center;      
+    }
+    .IniciarSesion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: center;
+        width: 200%;  
+    }
+    .menu{
+    display: flex;
+    font-size:px;
+
+
+    }
+}
+
+
+
+
+input{
+    padding:15px;
+}
+
+
+/*.IniciarSesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: center;
+    width: 200%;  
+}*/
+
+/*.Registrate{
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    align-items: center;      
+}*/
+

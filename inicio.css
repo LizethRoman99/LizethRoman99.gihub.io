@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/Imagenes/backgroundDannySpa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    }
+
+nav{
+    height: 90px;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align:start;
+    color: rgb(0, 0, 0);
+    display: flex;
+    }
+
+  header  nav ul li a {
+        text-align:start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 50px 50px 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: black;
+    }
+    .menu nav{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    .menu nav ul{
+        list-style:none;
+        display: flex;
+        justify-content:center;
+    }
+    .menu nav ul li{
+        position: relative;
+    }
+    a{
+    padding: 15px 80px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+
+
+    }
+
+
+nav a{
+        color: black;
+        text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+nav img{
+    width: 100px;
+}
+.contenedor p{
+width: 100%;
+display:flexbox;
+text-align: center;
+align-items: center;
+}
+p{
+    font-size: 50px;
+    color: white;
+    font-family: 'Great Vibes', cursive; 
+    justify-content: center;
+    display:flexbox;
+text-align: center;
+align-items: center;
+}
+.nav-item {
+    margin-right: 4rem;
+  }
+  .nav-link:hover {
+    color: white;
+  }
+ 
